@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+#transcript {
+  margin-top: 15px;
+  background-color: #171717;
+  padding: 15px;
+  min-height: 500px;
+  overflow: scroll;
+}
+
+#transcript p {
+  color: #f3f3f3;
+}
+
+#transcript .command {
+  color: #e43d3d;
+}
+/*# sourceMappingURL=main.css.map */
